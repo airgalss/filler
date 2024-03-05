@@ -1,0 +1,63 @@
+[
+    {
+        "type": "radiobutton",
+        "key": "title",
+        "page": [
+            0,
+            0,
+            0
+        ],
+        "option": [
+            "Mr.",
+            "Miss",
+            "Mrs."
+        ],
+        "label": [
+            "button_1",
+            "button_2",
+            "button_3"
+        ]
+    },
+    {
+        "type": "textbox",
+        "key": "full_name",
+        "page": 0,
+        "label": "Fullname"
+    },
+    {
+        "type": "textbox",
+        "key": "brith_date",
+        "page": 0,
+        "label": "box1"
+    },
+    {
+        "type": "textbox",
+        "key": "ID_number",
+        "page": 0,
+        "label": "box3"
+    },
+    {
+        "type": "textbox",
+        "key": "occupation",
+        "page": 0,
+        "label": "box4"
+    },
+    {
+        "type": "textbox",
+        "key": "mobile",
+        "page": 0,
+        "label": "box5"
+    },
+    {
+        "type": "textbox",
+        "key": "email",
+        "page": 0,
+        "label": "box6"
+    },
+    {
+        "type": "textbox",
+        "key": "address",
+        "page": 0,
+        "label": "Address"
+    }
+]

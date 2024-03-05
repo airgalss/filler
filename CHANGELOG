@@ -1,0 +1,24 @@
+### 2024.1.10
+
+* Cleaned up the src directory and moved help files and utility files to the 
+project root directory.
+* Streamlined directory structure by merging all configuration files into the 
+conf directory and placing input PDFs and output PDFs at the same level under 
+the data directory.
+
+### 2024.1.21
+
+* Optimized code and adjusted directory structure for better encapsulation.
+* Implemented a decorator-based hook for converting external dictionaries into 
+dictionaries that conform to the field.json key names.
+
+### 2024.2.25
+
+* Enhanced the tools/ script for improved automation.
+
+### 2024.3.1
+* Improved robustness of the PDF templates by using field_name instead of xref 
+positioning in the configuration files. This allows the code and configuration 
+files to continue functioning correctly even if the xref values are modified by 
+a PDF editor during PDF modification, without requiring any modifications to 
+the code or configuration files.
